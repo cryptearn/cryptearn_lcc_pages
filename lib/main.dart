@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_apps/forgetpass.dart';
 import 'package:flutter_apps/login.dart';
+import 'package:flutter_apps/resetpass.dart';
 import 'package:flutter_apps/signup.dart';
 
 class myApp extends StatelessWidget {
@@ -12,7 +13,7 @@ class myApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: forgetPass(),
+      home: resetPassword(),
     );
   }
 }
