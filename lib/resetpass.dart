@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class resetPassword extends StatefulWidget {
@@ -107,11 +105,13 @@ class _resetPasswordState extends State<resetPassword> {
                                     ),
                                     labelText: 'Password',
                                     labelStyle: GoogleFonts.ubuntu(
-                                      textStyle: TextStyle(color: Color(0xFF393536)),
+                                      textStyle:
+                                          TextStyle(color: Color(0xFF393536)),
                                     ),
-                                    hintText: 'Enter your password',
+                                    hintText: 'Enter new password',
                                     hintStyle: GoogleFonts.ubuntu(
-                                      textStyle: TextStyle(color: Color(0xFF393536)),
+                                      textStyle:
+                                          TextStyle(color: Color(0xFF393536)),
                                     ),
                                   ),
                                 ),
@@ -134,15 +134,15 @@ class _resetPasswordState extends State<resetPassword> {
                                         color: Color(0xFF393536),
                                       ),
                                     ),
-                                    prefixIcon: Icon(
-                                      Icons.lock,
-                                      color: Color(0xFF393536),
-                                    ),
                                     enabledBorder: OutlineInputBorder(
                                       borderRadius: BorderRadius.circular(25),
                                       borderSide: BorderSide(
                                         color: Color(0xFF393536),
                                       ),
+                                    ),
+                                    prefixIcon: Icon(
+                                      Icons.lock,
+                                      color: Color(0xFF393536),
                                     ),
                                     focusedBorder: OutlineInputBorder(
                                       borderRadius: BorderRadius.circular(25),
@@ -152,11 +152,13 @@ class _resetPasswordState extends State<resetPassword> {
                                     ),
                                     labelText: 'Password',
                                     labelStyle: GoogleFonts.ubuntu(
-                                      textStyle: TextStyle(color: Color(0xFF393536)),
+                                      textStyle:
+                                          TextStyle(color: Color(0xFF393536)),
                                     ),
-                                    hintText: 'Enter your password',
+                                    hintText: 'Confirm new password',
                                     hintStyle: GoogleFonts.ubuntu(
-                                      textStyle: TextStyle(color: Color(0xFF393536)),
+                                      textStyle:
+                                          TextStyle(color: Color(0xFF393536)),
                                     ),
                                   ),
                                 ),
@@ -177,7 +179,7 @@ class _resetPasswordState extends State<resetPassword> {
                                     fixedSize: Size(320, 65),
                                     shape: RoundedRectangleBorder(
                                         borderRadius:
-                                        BorderRadius.circular(30))),
+                                            BorderRadius.circular(30))),
                                 onPressed: () {},
                                 child: Text(
                                   'Reset Password',
@@ -204,7 +206,7 @@ class _resetPasswordState extends State<resetPassword> {
               child: Card(
                 shape: RoundedRectangleBorder(
                     borderRadius:
-                    BorderRadius.circular(responsive_width / 5.3)),
+                        BorderRadius.circular(responsive_width / 5.3)),
                 elevation: 10,
                 child: CircleAvatar(
                   backgroundColor: Colors.white,
