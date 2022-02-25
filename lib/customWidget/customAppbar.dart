@@ -49,7 +49,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
                     child: Column(
                       children: [
                         Text("Arif Hasan Badsha",
-                            style: TextStyle(
+                            style: TextStyle(color: Colors.white,
                                 fontSize: wid / 27,
                                 fontWeight: FontWeight.bold)),
                         Container(
@@ -58,7 +58,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
                             child: InkWell(
                                 onTap: changeState,
                                 child: Container(
-                                    width: wid/2.5,
+                                    width: wid/3,
                                     height: hei/30,
                                     decoration: BoxDecoration(
                                         color: Colors.white,
@@ -74,7 +74,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
                                                   Duration(milliseconds: 500),
                                               child: Text('৳ 50.00',
                                                   style: TextStyle(
-                                                      color: Colors.pink,
+                                                      color:Colors.black,
                                                       fontSize: 14))),
 
                                           /// ব্যালেন্স দেখুন
@@ -85,7 +85,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
                                               child: const Text(
                                                   'ব্যালেন্স দেখুন',
                                                   style: TextStyle(
-                                                      color: Colors.pink,
+                                                      color: Color(0xFFF68712),
                                                       fontSize: 14))),
 
                                           /// Circle
@@ -102,7 +102,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
                                                   // padding: const EdgeInsets.only(bottom: 4),
                                                   alignment: Alignment.center,
                                                   decoration: BoxDecoration(
-                                                      color: Colors.pink,
+                                                      color: Color(0xFFF68712),
                                                       borderRadius:
                                                           BorderRadius.circular(
                                                               50)),
